@@ -1,0 +1,17 @@
+Instalacion de tensorflow Global -  PowerShell
+
+Revisa tus Python instalados con:
+py -0p
+
+Debe salirte algo asi:
+ -3.12-64        C:\Users\Usuario\AppData\Local\Programs\Python\Python312\python.exe
+ -3.11-64        C:\Users\Usuario\AppData\Local\Programs\Python\Python311\python.exe
+ -3.14-64        C:\Users\Usuario\AppData\Local\Programs\Python\Python314\python.exe
+
+Para TensorFlow usa 3.11 o 3.12, no 3.14.
+py -3.12 -m pip install --upgrade pip
+py -3.12 -m pip install tensorflow tensorflow-datasets ipykernel
+
+
+La base de datos de MNIST se instalara en local de la pc, en la siguiente direccion:
+C:\Users\Usuario\tensorflow_datasets\mnist\3.0.1
