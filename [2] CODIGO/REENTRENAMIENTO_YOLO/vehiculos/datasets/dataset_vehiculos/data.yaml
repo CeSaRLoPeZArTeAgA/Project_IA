@@ -1,0 +1,6 @@
+path: D:/CICLO 2026-1 UNI/Project_IA/[2] CODIGO/REENTRENAMIENTO_YOLO/vehiculos/datasets/dataset_vehiculos
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: car
